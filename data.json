@@ -1,0 +1,7 @@
+[
+	{"id":"1_GitHub", "action":"Firebase", "active":"True", "target":"https://wiolink.firebaseio.com", "freq":"30",
+		"source":"https://api.github.com/users/caspyin", "tags":["avatar_url"]},
+	{"id":"2_GoogleMaps", "action":"Print", "active":"True", "target":"https://wiolink.firebaseio.com", "freq":"30",
+		"source":"https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA", 
+		"tags":["status"]}
+]
